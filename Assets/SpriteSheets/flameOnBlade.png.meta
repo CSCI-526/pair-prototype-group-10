@@ -1,0 +1,4505 @@
+fileFormatVersion: 2
+guid: d03c5a457ed787346adb7a562a748e22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flameOnBlade_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1727
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16c92bdc40e9c34e96a4e89f2706d1f
+      internalID: -1401503721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1727
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456d68c8b3a81c4f82959395dc0e4ca
+      internalID: -699239298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1727
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24960da4a06ba945b28c8123a297590
+      internalID: 1774173487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1727
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb948bc9c1950d459117e7ffc2b3d31
+      internalID: -1189371140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1727
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c998e22b6e69445aa7f218ac177313
+      internalID: 552054250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1727
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60bd7b0a1f28f647a45133caba81bef
+      internalID: 536350506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1727
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0f0ac33382bb458e80ac255819fc5
+      internalID: 597717531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_7
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1727
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1320b1c1cdc7cfd4a94a0d15932bc8e1
+      internalID: 1431795186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_8
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1727
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837086e2b01dfab4b891447dd49ff982
+      internalID: 658256065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_9
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1727
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8952d67ca6bda545b34c5b793286aa6
+      internalID: -910300994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1633
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfb951830be13c47ba24aa243a39891
+      internalID: 1936825679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1633
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bd2f09202302a42b7cc1628e72540c
+      internalID: 527749236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1641
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b915be158ec8ea844bf213bd8b7060ba
+      internalID: 1506547787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_13
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1641
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b52e727a4973e440a81cb6f0e767c98
+      internalID: -1016572891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1633
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd609d5e81e02ef448780cb22475dfa3
+      internalID: -1283268382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_15
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1633
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81da533fd7cdde241a8af04c74213ebe
+      internalID: 1717936999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_16
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1633
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c500de9e8f4135a4788c46a8492cd6fa
+      internalID: -335947533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_17
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1635
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67f8e5f6989ac94caa5425b2100c591
+      internalID: -636988697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_18
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1635
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21ebc4fe6779d94c9a460d2f725e5d8
+      internalID: -642160831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_19
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1641
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89c115314a0f5848a1b213d714e8b32
+      internalID: 1047969271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1547
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db12650e4590c0448c035433e008ac7
+      internalID: 1761449132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_21
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1539
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95e8a1fdb488824798bbf60e09e34c2
+      internalID: 1027333513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_22
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1539
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37298dc3cb6958245a51cc80471e81e0
+      internalID: -549185226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1544
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f231c0bdf3f4e05469892d299b662ebe
+      internalID: -1300594741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_24
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1539
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1f5795d99366d4f90710fc21dd7348
+      internalID: 758827492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_25
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1539
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174827195ac353546b5ac78de85754a9
+      internalID: 1690239288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_26
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1539
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74e5b90d58116e40b12caaf1b1648c8
+      internalID: -1848584782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_27
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1541
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a431cac276edf4da799cb637837c13
+      internalID: -1217003867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1539
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5430fe1f4ac37d4ba372e57d89a8e6a
+      internalID: -1357343210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_29
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1539
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10197b3f7965514394b092d4b38b7b5
+      internalID: 2081774730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1445
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c630b30cb964ac46a18d125425e6438
+      internalID: 887884865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1455
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99e363b49ca5bc42b2af6805a0a8688
+      internalID: -398881529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1461
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3a06c58f0ae243bdc79dace161eeb
+      internalID: -527435202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1461
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1923d333f1d7224796847d2b1f0da44
+      internalID: 1772751632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1463
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f63e6806e6a0489a2d63ce1ef9a73
+      internalID: 2125421080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_35
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1445
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ada2a02bcb5a5243994f21eb6909675
+      internalID: -1636688276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_36
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1445
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bdf4558961b35448b847b44eb58cf2
+      internalID: 314307191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_37
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1447
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b566b7a6073342a2bfabb96f0113b
+      internalID: -1914209271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_38
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1447
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4a37aabc8a53b4dac054ddb406848a
+      internalID: -2137263663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_39
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1445
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6a81b95a3b546478d5c7e26130d5af
+      internalID: -274065227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1351
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6f80f17c6bb84cb8b0be603b37bad
+      internalID: -2086425793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1350
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d562891619b41e14ebbc6d47e726802f
+      internalID: -1930339392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_42
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1349
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd88b9efb0626394ca162ee99f4905c0
+      internalID: -212377961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1357
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6488eed242adce4a93fec63e3bbd839
+      internalID: -11438088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_44
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1363
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55516cfd2222af348bb2780bf83617ac
+      internalID: -1205090644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_45
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1359
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc73273c0e45c4eaebe4ed85fe81d0
+      internalID: -403257892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_46
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1351
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9d7ca21b5cc864e8a2c4a4f129034d
+      internalID: -987996374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_47
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1351
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e913a5a2245f254c98ab0492a371cbf
+      internalID: 694119202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_48
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1351
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f4c644801c5c54c8ff519361556044
+      internalID: -1847446872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_49
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1354
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb63f0a86ceeca4c8fe8ef9633bb92c
+      internalID: -1569720182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1257
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89b5acdf1d04964dad73f13795847c3
+      internalID: 95565845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1257
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe904ef7ca457f409a1d1522ff3a5da
+      internalID: -490464496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_52
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1274
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49e8ac2661365d41830db632299524f
+      internalID: 184294136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_53
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1257
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f11f4dd103d1440812d437db21d826
+      internalID: -1540087314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_54
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1272
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c333951bfd4b14b9b7e9c673ce1b78
+      internalID: -489352424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_55
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1257
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05fe7861fdb9524bb5112f1b1b1f63b
+      internalID: 525264380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_56
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1257
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d0e7628134deb408c70edfa540aaaf
+      internalID: -16118837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_57
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1257
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ce8eff2d730474b91be508159ac4f7
+      internalID: -1900362171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_58
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1253
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654a52f7590afe743ae44bc17c499a48
+      internalID: -844099397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_59
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1273
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd63c468aab66047a8fd9b47c927e1b
+      internalID: -11510516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_60
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1255
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205404cf28ce11e41b92ea935d685715
+      internalID: 782719264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_61
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1257
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc4f0bbbc9905f468723b0a9fd2a001
+      internalID: 2058658435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_62
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1257
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edbd763f492f2e4795c3f0aaafe3d63
+      internalID: 980600910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1163
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c970d215b370c8b408ec5809f1d4c3dd
+      internalID: -562537616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_64
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1163
+        width: 59
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e9f361999ac284f98e10feae8e38ee
+      internalID: 2120026179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_65
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1163
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79659fc168f2854458036172a1dc3a6d
+      internalID: 1968081478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_66
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1159
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e7d48941ff73e4fa024de0fbbcc3c6
+      internalID: -1012066843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1163
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f61fd007f9e9f429738674ccbdb75c
+      internalID: 682755228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_68
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1172
+        width: 13
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c386e4211fcb3ff469c02c7482be039c
+      internalID: 326952235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_69
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1163
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296a7bf7b5f228e4688c61e08f44c03d
+      internalID: -230131641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_70
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1163
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c352daf4b7253145859012a7c8ed48e
+      internalID: -684538704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_71
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1163
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e7e7aa604da74dbfe3ef8045e7d91
+      internalID: 102459899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_72
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1163
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176ab6beb9df94b4aaaadfd2ba3cd9be
+      internalID: -856867489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_73
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1163
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511b9dfcae5a51049a73b5c2c4a1e561
+      internalID: -473574062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_74
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1069
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2046febb669286a40a71a0d01a6d01e3
+      internalID: 378272861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_75
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1069
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4318b2cbfe8e454ca5d397fe90de039
+      internalID: 941327605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_76
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1069
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d669f2fe2490c3479afec07f8c8c77f
+      internalID: 1387791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_77
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1069
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b05d41ab137514d8d77cc7bf51d5b8
+      internalID: 1477927550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_78
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1069
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df70035fceecf354398401a293bd0ed2
+      internalID: -667741565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_79
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1069
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9000f5b33898414987316dfb34ea106
+      internalID: 289551988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_80
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1069
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686aa318d542594ab8edf91b97ce805
+      internalID: -349210315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_81
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1069
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca7c0c3204e4cb4eb1f78b5eff21491
+      internalID: -1628005402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_82
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1069
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d938a15127e849d45ad0c160a45b8a6b
+      internalID: 2005076712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_83
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1069
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2406cce1194457248843f69d67c29671
+      internalID: 1214866029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_84
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 975
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9eea8a3aac709469b49d5aaf74b2f0
+      internalID: 245701928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 975
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b57f5d6cc912c4ca5447a57eab2d06
+      internalID: -131575397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_86
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 975
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c364ce8b5153143a56c5ffb7c9fd90
+      internalID: -1861493052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_87
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 975
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001e63797b8942849bbe798b6efbc057
+      internalID: -1847339988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_88
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 975
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab321067e74272448003e77d60915c1
+      internalID: -904547690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_89
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 975
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c72e1e4c92d1f41a221d6dde8e34b6
+      internalID: -1937417496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_90
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 975
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943c46ceb9c5d7440a9a131b5188240c
+      internalID: 106723051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_91
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 975
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223bb895266a6e440b04cc4141945bc5
+      internalID: -755412036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_92
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 975
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b0a8b0fb4ccb438831a4cb9ae9c85
+      internalID: 1567566315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_93
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 975
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5419dec9ada6644b034016ca0e06f1
+      internalID: 295919850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_94
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 881
+        width: 77
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc84dc63ffbeb46abc4b7f245615cc
+      internalID: -1751315915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_95
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 881
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485a0c7174cd02945b073e45c5c7ab4d
+      internalID: 850617510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_96
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 881
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36835475e269cd04b9a4a06182efdf91
+      internalID: -711781090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_97
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 881
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8c2a8de05987041abdcdc04f78cd9f
+      internalID: 1685846326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_98
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 881
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bac6b1f0cd80e242831aa004f6673d6
+      internalID: 1309901405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_99
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 881
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e6ee5c040d16f46bd3ffbcef0aab51
+      internalID: 1886236866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_100
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 881
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c27942df453f724f98eec715f32b1e6
+      internalID: -1336923103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_101
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 881
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4374f86998baa4cba4bd4ea9763b32
+      internalID: 265517793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_102
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 881
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1452717c92e2b4280c94a5f915f930
+      internalID: 381500371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_103
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 881
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54006ec6e2ffda145a4dc61d73be6374
+      internalID: -1514975303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_104
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 787
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43cebfdca24fd142be24627ec24a892
+      internalID: 259395950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_105
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 787
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385d554af7be2a04b877513b77ceaa8a
+      internalID: 964288672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_106
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 787
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009c491904cf8ac4b9b3fef00f9765f4
+      internalID: -510696593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_107
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 787
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d138b115b5de7e49805b91d46da8ee2
+      internalID: -1895220918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_108
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 787
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d66c8c2e74db845b58a72cc4ea8e3b
+      internalID: -957693471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_109
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 787
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ab37851b0cd540a6f9752a4b42a5e
+      internalID: 477762239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_110
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 787
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc91a51b9c2ffe4189f5917787bb33d
+      internalID: -52179375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_111
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 787
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52731c525538dea46bb310518a2c336b
+      internalID: -521655998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_112
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 787
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092ec0fae35a595468f80f5f329b7a23
+      internalID: 497845491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_113
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 787
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832133e00d5cc914d88304e6c3e903c5
+      internalID: -842839523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_114
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 693
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37ee1b396c653043b8f3344212d8f5c
+      internalID: 1379703387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 693
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6d00d95b3e4c54bbc25194f5171ca1
+      internalID: -700100135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_116
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 693
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce745d62f34d024b9ab98a89dcc7730
+      internalID: -753815463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_117
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 693
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcd0daa8c483344aa1ca2db8cf7328a
+      internalID: 1966926403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_118
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 694
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a705cc928a36604a84dce0e5a2db3ca
+      internalID: -1956381681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_119
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 693
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b8213cf2a23da41ab869425af97dcb
+      internalID: -1768650103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_120
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 693
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61de08d0f95ed4e4eb113021c5448286
+      internalID: -1054327605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_121
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 693
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48629e35253df26439271a585ab1be49
+      internalID: 2056894012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_122
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 693
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3849a43b430ffe841b864dc6e4c0cecb
+      internalID: 2003765056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_123
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 693
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186eb8d3fe2480f41a2961ea71505995
+      internalID: -304241016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_124
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 599
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546755eb7467b4489f53cd561cd2d68
+      internalID: -1876976926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_125
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 599
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e981479a9b12f24aaf1b95e24c5c85f
+      internalID: -980190976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_126
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 599
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e9c338c8944214dbccd885c2434460
+      internalID: -1901247248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 599
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffccd7b77bc3e5468f0757ed312c21e
+      internalID: 350161837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_128
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 599
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb8b05566369ce4fb79a79363b185be
+      internalID: 733047392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_129
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 599
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1f8284de245ea48878ff258f4beda8
+      internalID: -398399188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_130
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 599
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425184b35aff66041b582481e59122b5
+      internalID: 884528450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_131
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 601
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f4dd5734e1fba46812d80663723095
+      internalID: -972776873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_132
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 607
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7bc378e259c34f9dfce128299a905
+      internalID: 978052657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_133
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 604
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e87ab03e4aa2f4a94170e5d21c2f19
+      internalID: -672200242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_134
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 505
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72a0899db7d64546a2cb86cf65226f8
+      internalID: -1051851254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_135
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 505
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f380889d88499498600c0d63d152fd
+      internalID: -1293320244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_136
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 505
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fd45e2c33668b4eac79fcfbbbb85fc
+      internalID: -240060438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_137
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 505
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e86c6c0624ca840a1ff7c10f101db2
+      internalID: -79840353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_138
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 505
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2e907a3eb38b34abc2a619ad7bc8e9
+      internalID: 2036700757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_139
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 505
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c83e5373569054e9aa77eba3d0a018
+      internalID: -1749065233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_140
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 505
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27d8ff51bc72884db024354ad97457a
+      internalID: 1265655281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_141
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 501
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443db4201496b4b4b8f10b847337dc3f
+      internalID: -130143419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_142
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 505
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dee075733399634dba7e66b1174e1cf
+      internalID: 895348917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_143
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 506
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ee56d50985ec143950b92dc26707e4
+      internalID: 2132313056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_144
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 411
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ce42b2d039904591133dd4c97a6dc
+      internalID: 2141794488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_145
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 413
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e97b6e45401da4481a1e00bbb46f15
+      internalID: -1867877720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_146
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 404
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda552bfb53c1cb419e3070bee9de40f
+      internalID: 332290689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_147
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 404
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6800c51e338a2c340861c2b60e000791
+      internalID: -351002267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_148
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 411
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c68c14b518ea54c88a4ba2c749d6e0
+      internalID: 221995735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_149
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 411
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a689890b95e38141947542e6d2060de
+      internalID: 1594695356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_150
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 411
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd43127937082b341b74dc19bfc583a5
+      internalID: 421012006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_151
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 411
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff91272991c281468637c4a010fc638
+      internalID: 132083333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_152
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 411
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f262970bd5154198057f9a714ef4c
+      internalID: -32368835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_153
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 411
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d3fe3d345b3542afcbbd896ede5a0
+      internalID: 903583635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_154
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 330
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dcedc0cab307240a52f2cd92198980
+      internalID: -2122544494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_155
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 316
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b206ff107bbea446a9fbb46b8579950
+      internalID: 347342052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_156
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 307
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cddfb0e7f1b60c4d9a107cbaf552bbb
+      internalID: -1107189854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_157
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 315
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4374b7cb86456644a80ffe86e497972
+      internalID: 1621585509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_158
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 315
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385495cecf4eab2468d3d38bb23e318d
+      internalID: -314984466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_159
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 336
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecce963992657224f8363481e0ef5874
+      internalID: -916048350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_160
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 317
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb348c416eb28744a2b4d1918dbb8f1
+      internalID: -1980501664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_161
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 317
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f1d309d55e96547b529b37a5b94b50
+      internalID: 19631871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 247
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea79aaa84b3cf74c9d35050300af428
+      internalID: 1202376947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_163
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 247
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18e80fb40ef467438f01bf3c07bb901
+      internalID: 1688408836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_164
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 247
+        width: 86
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f699ecfb1b8c8f459d9955843ac6269
+      internalID: -294808821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_165
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 247
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d197396cc8d87b428ec68ed1b235b7a
+      internalID: -411539692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_166
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 249
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3695177939ed01844a34a84c0aac4d09
+      internalID: 1349824128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_167
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 247
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4264616be4514854c98e0369c941b41e
+      internalID: -992673174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_168
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 247
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f48bd8a6f43c249b706fac667b32a9
+      internalID: -1819302644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_169
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 247
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609716ff919900d4882137e6e9bf396f
+      internalID: 1696004889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_170
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 247
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c83e19c5514fc5448052b91556e4a36
+      internalID: -71217984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_171
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 247
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a394f5cb2b302d64ebb05dd7206999f2
+      internalID: -103681308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_172
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 185
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78adb5e8f7df534ca22ee1d8536d456
+      internalID: 1606557006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_173
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 185
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97f5764e27eca643b1bda496df9d30c
+      internalID: 282568110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_174
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 185
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34ad0c55a4208d41aad6899fab6504c
+      internalID: -1362079002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_175
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 186
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad4c21ed475ca14e94276425d035b46
+      internalID: -1097391284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_176
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 186
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521bdfd2f72cef842a4186575a6b0572
+      internalID: -821939343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_177
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 185
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff57bc8f581e714abb15e1fc0214c12
+      internalID: 1027677342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_178
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 185
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997b2f4ad3b459145b2b0979a5575ea7
+      internalID: 923936275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_179
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 95
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07c027f0a858ae40b5767f1acf749e7
+      internalID: 1944903452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_180
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 95
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c3e3dd058909844ac7fa2064250322
+      internalID: 946318886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_181
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 95
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefd1a7f726e26a47ad0794f67bd5435
+      internalID: -128931612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_182
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 95
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0379dbf1a17749144b8facd6fa5187de
+      internalID: 1752812657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_183
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 95
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db46b836d8a11ba4c8daec57040718eb
+      internalID: -1729992408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_184
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 95
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bec8f4f0fe95e344ba630b70b7e7070
+      internalID: -297963191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_185
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9b22d3c6e789943bb8b0ada2596eab
+      internalID: 2039884583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_186
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 95
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c3ec8e36741e6428a58b17fa929b9e
+      internalID: -1007795101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_187
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 95
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aaaa290e598a5458c741438bd44de1
+      internalID: 1432317763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_188
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 95
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac1e825687c5164dacd258a197c8e7b
+      internalID: 1722821168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_189
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 21
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0f7173b670c8742a63746bd71f219b
+      internalID: -1174367751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_190
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 21
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffde0ee7e298b448a87a70ea6ed37c6
+      internalID: 565641649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_191
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 21
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12001a8303cb3c94a869e73b1d251076
+      internalID: -1008466554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_192
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 21
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccba6882daf455344afa56af112bcad3
+      internalID: 68380372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_193
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 21
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ed601062752874a9d49ff3cf97e71d
+      internalID: 1907817112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_194
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 21
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46da542da03c42145aa803335fd98deb
+      internalID: -1661214542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_195
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 21
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc8463b5194cf841b2474e0f97f2f3b
+      internalID: 1921959575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_196
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 21
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b025179f20a67c40869afb28765d25d
+      internalID: -85893439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_197
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 21
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936841f9db6de94387963e6a39102bc
+      internalID: 1223738160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flameOnBlade_198
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 0
+        width: 156
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dee8db95052659489d8d5511b6ebae0
+      internalID: 1857023889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      flameOnBlade_0: -1401503721
+      flameOnBlade_1: -699239298
+      flameOnBlade_10: 1936825679
+      flameOnBlade_100: -1336923103
+      flameOnBlade_101: 265517793
+      flameOnBlade_102: 381500371
+      flameOnBlade_103: -1514975303
+      flameOnBlade_104: 259395950
+      flameOnBlade_105: 964288672
+      flameOnBlade_106: -510696593
+      flameOnBlade_107: -1895220918
+      flameOnBlade_108: -957693471
+      flameOnBlade_109: 477762239
+      flameOnBlade_11: 527749236
+      flameOnBlade_110: -52179375
+      flameOnBlade_111: -521655998
+      flameOnBlade_112: 497845491
+      flameOnBlade_113: -842839523
+      flameOnBlade_114: 1379703387
+      flameOnBlade_115: -700100135
+      flameOnBlade_116: -753815463
+      flameOnBlade_117: 1966926403
+      flameOnBlade_118: -1956381681
+      flameOnBlade_119: -1768650103
+      flameOnBlade_12: 1506547787
+      flameOnBlade_120: -1054327605
+      flameOnBlade_121: 2056894012
+      flameOnBlade_122: 2003765056
+      flameOnBlade_123: -304241016
+      flameOnBlade_124: -1876976926
+      flameOnBlade_125: -980190976
+      flameOnBlade_126: -1901247248
+      flameOnBlade_127: 350161837
+      flameOnBlade_128: 733047392
+      flameOnBlade_129: -398399188
+      flameOnBlade_13: -1016572891
+      flameOnBlade_130: 884528450
+      flameOnBlade_131: -972776873
+      flameOnBlade_132: 978052657
+      flameOnBlade_133: -672200242
+      flameOnBlade_134: -1051851254
+      flameOnBlade_135: -1293320244
+      flameOnBlade_136: -240060438
+      flameOnBlade_137: -79840353
+      flameOnBlade_138: 2036700757
+      flameOnBlade_139: -1749065233
+      flameOnBlade_14: -1283268382
+      flameOnBlade_140: 1265655281
+      flameOnBlade_141: -130143419
+      flameOnBlade_142: 895348917
+      flameOnBlade_143: 2132313056
+      flameOnBlade_144: 2141794488
+      flameOnBlade_145: -1867877720
+      flameOnBlade_146: 332290689
+      flameOnBlade_147: -351002267
+      flameOnBlade_148: 221995735
+      flameOnBlade_149: 1594695356
+      flameOnBlade_15: 1717936999
+      flameOnBlade_150: 421012006
+      flameOnBlade_151: 132083333
+      flameOnBlade_152: -32368835
+      flameOnBlade_153: 903583635
+      flameOnBlade_154: -2122544494
+      flameOnBlade_155: 347342052
+      flameOnBlade_156: -1107189854
+      flameOnBlade_157: 1621585509
+      flameOnBlade_158: -314984466
+      flameOnBlade_159: -916048350
+      flameOnBlade_16: -335947533
+      flameOnBlade_160: -1980501664
+      flameOnBlade_161: 19631871
+      flameOnBlade_162: 1202376947
+      flameOnBlade_163: 1688408836
+      flameOnBlade_164: -294808821
+      flameOnBlade_165: -411539692
+      flameOnBlade_166: 1349824128
+      flameOnBlade_167: -992673174
+      flameOnBlade_168: -1819302644
+      flameOnBlade_169: 1696004889
+      flameOnBlade_17: -636988697
+      flameOnBlade_170: -71217984
+      flameOnBlade_171: -103681308
+      flameOnBlade_172: 1606557006
+      flameOnBlade_173: 282568110
+      flameOnBlade_174: -1362079002
+      flameOnBlade_175: -1097391284
+      flameOnBlade_176: -821939343
+      flameOnBlade_177: 1027677342
+      flameOnBlade_178: 923936275
+      flameOnBlade_179: 1944903452
+      flameOnBlade_18: -642160831
+      flameOnBlade_180: 946318886
+      flameOnBlade_181: -128931612
+      flameOnBlade_182: 1752812657
+      flameOnBlade_183: -1729992408
+      flameOnBlade_184: -297963191
+      flameOnBlade_185: 2039884583
+      flameOnBlade_186: -1007795101
+      flameOnBlade_187: 1432317763
+      flameOnBlade_188: 1722821168
+      flameOnBlade_189: -1174367751
+      flameOnBlade_19: 1047969271
+      flameOnBlade_190: 565641649
+      flameOnBlade_191: -1008466554
+      flameOnBlade_192: 68380372
+      flameOnBlade_193: 1907817112
+      flameOnBlade_194: -1661214542
+      flameOnBlade_195: 1921959575
+      flameOnBlade_196: -85893439
+      flameOnBlade_197: 1223738160
+      flameOnBlade_198: 1857023889
+      flameOnBlade_2: 1774173487
+      flameOnBlade_20: 1761449132
+      flameOnBlade_21: 1027333513
+      flameOnBlade_22: -549185226
+      flameOnBlade_23: -1300594741
+      flameOnBlade_24: 758827492
+      flameOnBlade_25: 1690239288
+      flameOnBlade_26: -1848584782
+      flameOnBlade_27: -1217003867
+      flameOnBlade_28: -1357343210
+      flameOnBlade_29: 2081774730
+      flameOnBlade_3: -1189371140
+      flameOnBlade_30: 887884865
+      flameOnBlade_31: -398881529
+      flameOnBlade_32: -527435202
+      flameOnBlade_33: 1772751632
+      flameOnBlade_34: 2125421080
+      flameOnBlade_35: -1636688276
+      flameOnBlade_36: 314307191
+      flameOnBlade_37: -1914209271
+      flameOnBlade_38: -2137263663
+      flameOnBlade_39: -274065227
+      flameOnBlade_4: 552054250
+      flameOnBlade_40: -2086425793
+      flameOnBlade_41: -1930339392
+      flameOnBlade_42: -212377961
+      flameOnBlade_43: -11438088
+      flameOnBlade_44: -1205090644
+      flameOnBlade_45: -403257892
+      flameOnBlade_46: -987996374
+      flameOnBlade_47: 694119202
+      flameOnBlade_48: -1847446872
+      flameOnBlade_49: -1569720182
+      flameOnBlade_5: 536350506
+      flameOnBlade_50: 95565845
+      flameOnBlade_51: -490464496
+      flameOnBlade_52: 184294136
+      flameOnBlade_53: -1540087314
+      flameOnBlade_54: -489352424
+      flameOnBlade_55: 525264380
+      flameOnBlade_56: -16118837
+      flameOnBlade_57: -1900362171
+      flameOnBlade_58: -844099397
+      flameOnBlade_59: -11510516
+      flameOnBlade_6: 597717531
+      flameOnBlade_60: 782719264
+      flameOnBlade_61: 2058658435
+      flameOnBlade_62: 980600910
+      flameOnBlade_63: -562537616
+      flameOnBlade_64: 2120026179
+      flameOnBlade_65: 1968081478
+      flameOnBlade_66: -1012066843
+      flameOnBlade_67: 682755228
+      flameOnBlade_68: 326952235
+      flameOnBlade_69: -230131641
+      flameOnBlade_7: 1431795186
+      flameOnBlade_70: -684538704
+      flameOnBlade_71: 102459899
+      flameOnBlade_72: -856867489
+      flameOnBlade_73: -473574062
+      flameOnBlade_74: 378272861
+      flameOnBlade_75: 941327605
+      flameOnBlade_76: 1387791
+      flameOnBlade_77: 1477927550
+      flameOnBlade_78: -667741565
+      flameOnBlade_79: 289551988
+      flameOnBlade_8: 658256065
+      flameOnBlade_80: -349210315
+      flameOnBlade_81: -1628005402
+      flameOnBlade_82: 2005076712
+      flameOnBlade_83: 1214866029
+      flameOnBlade_84: 245701928
+      flameOnBlade_85: -131575397
+      flameOnBlade_86: -1861493052
+      flameOnBlade_87: -1847339988
+      flameOnBlade_88: -904547690
+      flameOnBlade_89: -1937417496
+      flameOnBlade_9: -910300994
+      flameOnBlade_90: 106723051
+      flameOnBlade_91: -755412036
+      flameOnBlade_92: 1567566315
+      flameOnBlade_93: 295919850
+      flameOnBlade_94: -1751315915
+      flameOnBlade_95: 850617510
+      flameOnBlade_96: -711781090
+      flameOnBlade_97: 1685846326
+      flameOnBlade_98: 1309901405
+      flameOnBlade_99: 1886236866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
