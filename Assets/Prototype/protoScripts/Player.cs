@@ -8,6 +8,12 @@ public class Player : MonoBehaviour
     [Header("Attack Details")]
     public Vector2[] attackMovement;
     public bool isBusy;
+    public GameObject attackHitBox;
+    public Vector2 attackHitBoxCenterOffset;
+    public Vector2 attackHitBoxSize;
+    public bool showAttackHitBox;
+
+    [Header("Parry Details")]
 
     [Header("Move Info")]
     public float moveSpeed = 12f;
@@ -24,6 +30,7 @@ public class Player : MonoBehaviour
     #region Components
     public Animator anim {  get; private set; }
     public Rigidbody2D rb { get; private set; }
+    public SpriteRenderer spriteRenderer { get; private set; }
     #endregion
 
     #region States
@@ -34,6 +41,9 @@ public class Player : MonoBehaviour
     public PlayerJumpState jumpState { get; private set; }
     public PlayerAirState airState { get; private set; }
     public PlayerPrimaryAttackState primaryAttackState { get; private set; } 
+    public PlayerParryState parryState { get; private set; }
+    public PlayerDefenseState defenseState { get; private set; }
+    public PlayerAirParryState airParryState { get; private set; }
     #endregion
 
     private void Awake()
@@ -45,12 +55,16 @@ public class Player : MonoBehaviour
         jumpState = new PlayerJumpState(this, stateMachine, "Jump");
         airState = new PlayerAirState(this, stateMachine, "Jump");
         primaryAttackState = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
+        parryState = new PlayerParryState(this, stateMachine, "Parry");
+        defenseState = new PlayerDefenseState(this, stateMachine, "Defense");
+        airParryState = new PlayerAirParryState(this, stateMachine, "AirParry");
     }
 
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         stateMachine.Initialize(idleState);
     }
@@ -92,6 +106,30 @@ public class Player : MonoBehaviour
     {
         //Ground Check
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
+
+        //attack box check
+        float attackBoxCenterX;
+        float attackBoxCenterY;
+        if (showAttackHitBox)
+        {
+            if (facingRight)
+            {
+                attackBoxCenterX = transform.position.x + attackHitBoxCenterOffset.x;
+                attackBoxCenterY = transform.position.y + attackHitBoxCenterOffset.y;
+
+            }
+            else
+            {
+                attackBoxCenterX = transform.position.x - attackHitBoxCenterOffset.x;
+                attackBoxCenterY = transform.position.y + attackHitBoxCenterOffset.y;
+
+            }
+            Vector2 attackBoxCenter = new Vector2(attackBoxCenterX, attackBoxCenterY);
+            Gizmos.DrawWireCube((Vector2)attackBoxCenter, attackHitBoxSize);
+
+        }
+
+
     }
     #endregion
 

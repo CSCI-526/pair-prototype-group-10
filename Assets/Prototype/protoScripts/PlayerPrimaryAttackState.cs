@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class PlayerPrimaryAttackState : PlayerState
 {
@@ -31,6 +32,30 @@ public class PlayerPrimaryAttackState : PlayerState
             attackDir = xInput;
         }
         player.setVelocity(player.attackMovement[comboCounter].x * attackDir, player.attackMovement[comboCounter].y);
+        //update player attackHitBox
+        player.showAttackHitBox = true;
+        if (comboCounter == 0)
+        {
+            player.attackHitBoxSize.x = 8.0f;
+            player.attackHitBoxSize.y = 10.0f;
+            player.attackHitBoxCenterOffset.x = 2f;
+            player.attackHitBoxCenterOffset.y = 3.0f;
+        }
+        else if (comboCounter == 1)
+        {
+            player.attackHitBoxSize.x = 15.0f;
+            player.attackHitBoxSize.y = 8.0f;
+            player.attackHitBoxCenterOffset.x = 4.0f;
+            player.attackHitBoxCenterOffset.y = 0.0f;
+        }
+        else if (comboCounter == 2)
+        {
+            player.attackHitBoxSize.x = 8.0f;
+            player.attackHitBoxSize.y = 8.0f;
+            player.attackHitBoxCenterOffset.x = 3.0f;
+            player.attackHitBoxCenterOffset.y = 3.0f;
+        }
+
 
     }
 
@@ -41,6 +66,13 @@ public class PlayerPrimaryAttackState : PlayerState
         player.StartCoroutine(player.Busyfor(0.2f));
         comboCounter++;
         lastTimeAttacked = Time.time;
+
+        //reset attackbox size
+        player.attackHitBoxSize.x = 6.0f;
+        player.attackHitBoxSize.y = 6.0f;
+        player.attackHitBoxCenterOffset.x = 2.0f;
+        player.attackHitBoxCenterOffset.y = 0.0f;
+        player.showAttackHitBox = false;
 
     }
 
@@ -57,5 +89,29 @@ public class PlayerPrimaryAttackState : PlayerState
         {
             stateMachine.ChangeState(player.idleState);
         }
+        //attack box contruction
+        float attackBoxCenterX;
+        float attackBoxCenterY;
+
+        if (player.facingRight)
+        {
+            attackBoxCenterX = player.transform.position.x + player.attackHitBoxCenterOffset.x;
+            attackBoxCenterY = player.transform.position.y + player.attackHitBoxCenterOffset.y;
+
+        }
+        else
+        {
+            attackBoxCenterX = player.transform.position.x - player.attackHitBoxCenterOffset.x;
+            attackBoxCenterY = player.transform.position.y + player.attackHitBoxCenterOffset.y;
+
+        }
+        Vector2 attackBoxCenter = new Vector2(attackBoxCenterX, attackBoxCenterY);
+        Vector2 attackBoxBottomLeft = new Vector2(attackBoxCenter.x - player.attackHitBoxSize.x / 2, attackBoxCenter.y - player.attackHitBoxSize.y / 2);
+        Vector2 attackBoxTopRight = new Vector2(attackBoxCenter.x + player.attackHitBoxSize.x / 2, attackBoxCenter.y + player.attackHitBoxSize.y / 2);
+
+        
+
     }
+
+        
 }

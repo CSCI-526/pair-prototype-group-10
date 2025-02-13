@@ -25,5 +25,10 @@ public class PlayerAirState : PlayerState
         {
             stateMachine.ChangeState(player.idleState);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            stateMachine.ChangeState(player.airParryState); 
+        }
     }
 }
