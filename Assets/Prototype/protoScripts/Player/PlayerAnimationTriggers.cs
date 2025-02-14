@@ -12,4 +12,14 @@ public class PlayerAnimationTriggers : MonoBehaviour
         player.AnimationTrigger();
     }
 
+    private void JumpTrigger()
+    {
+        player.JumpTrigger();
+    }
+
+    private void AttackTrigger()
+    {
+        player.AttackTrigger();
+    }
+
 }

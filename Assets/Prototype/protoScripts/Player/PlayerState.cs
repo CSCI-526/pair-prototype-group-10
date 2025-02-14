@@ -13,6 +13,7 @@ public class PlayerState
 
     protected float stateTimer;
     protected bool triggerCalled;
+    protected bool followUpEnabled;
 
     //for GUI TESTING
     public string AnimBoolNameGUI => animBoolName;
@@ -30,6 +31,7 @@ public class PlayerState
         player.anim.SetBool(animBoolName, true);
         rb = player.rb;
         triggerCalled = false;
+        followUpEnabled = false;
     }
     public virtual void Update()
     {
@@ -47,4 +49,8 @@ public class PlayerState
         triggerCalled = true;
     }
 
+    public virtual void attackEnableTrigger()
+    {
+        followUpEnabled = true;
+    }
 }

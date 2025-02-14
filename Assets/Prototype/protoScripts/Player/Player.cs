@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [Header("Move Info")]
     public float moveSpeed = 12f;
     public float jumpForce;
+    public float airForce;
 
     [Header("Collision Info")]
     [SerializeField] private Transform groundCheck;
@@ -94,6 +95,17 @@ public class Player : MonoBehaviour
     {
         stateMachine.currentState.AnimationFinishTrigger();
     }
+
+    public void JumpTrigger()
+    {
+        rb.velocity = new Vector2(0f, airForce);
+    }
+
+    public void AttackTrigger()
+    {
+        stateMachine.currentState.attackEnableTrigger();
+    }
+
     #endregion
 
     #region Velocity
