@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334149512}
   - component: {fileID: 334149513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 398324980}
   - component: {fileID: 398324983}
   - component: {fileID: 398324984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,6 +348,8 @@ MonoBehaviour:
   attackHitBoxCenterOffset: {x: 2, y: 0}
   attackHitBoxSize: {x: 6, y: 6}
   showAttackHitBox: 0
+  lastTimeAttacked: 0
+  comboCounter: 0
   moveSpeed: 12
   jumpForce: 30
   groundCheck: {fileID: 1718578449}
@@ -355,6 +357,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &736906569
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 802926691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1221737668}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackHitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,6 +514,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 398324982}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1264249713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264249714}
+  m_Layer: 6
+  m_Name: AttackHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1264249714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264249713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1458091269}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1458091265
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +558,7 @@ GameObject:
   - component: {fileID: 1458091267}
   - component: {fileID: 1458091266}
   - component: {fileID: 1458091270}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,6 +694,7 @@ Transform:
   m_Children:
   - {fileID: 334149512}
   - {fileID: 802926691}
+  - {fileID: 1264249714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1458091270
@@ -677,6 +714,10 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  attackHitBox: {fileID: 1264249713}
+  attackHitBoxCenterOffset: {x: 15, y: 5}
+  attackHitBoxSize: {x: 30, y: 20}
+  showAttackHitBox: 0
 --- !u!1 &1603313261
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +730,7 @@ GameObject:
   - component: {fileID: 1603313263}
   - component: {fileID: 1603313264}
   - component: {fileID: 1603313265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1718578449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -15,11 +15,13 @@ public class CapsuleAttackState : EnemyState
         base.Enter();
         stateTimer = 1f;
         enemy.spriteRenderer.color = Color.red;
+        enemy.showAttackHitBox = true;
     }
 
     public override void Exit()
     {
         base.Exit();
+        enemy.showAttackHitBox = false;
     }
 
     public override void Update()

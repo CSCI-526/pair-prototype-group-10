@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerGroundedState : PlayerState
 {
+    private float secondaryAttackWindow = 0.2f;
     public PlayerGroundedState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
     }
@@ -21,9 +22,13 @@ public class PlayerGroundedState : PlayerState
     public override void Update()
     {
         base.Update();
-        if(Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             stateMachine.ChangeState(player.primaryAttackState);
+        }
+        else if (Input.GetKeyDown(KeyCode.K) && Time.time <= player.lastTimeAttacked + secondaryAttackWindow)
+        {
+            stateMachine.ChangeState(player.secondaryAttackState);
         }
 
         if (!player.IsGroundDetected())

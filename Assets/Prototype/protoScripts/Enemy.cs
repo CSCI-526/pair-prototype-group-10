@@ -9,10 +9,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
+    public GameObject attackHitBox;
+    public Vector2 attackHitBoxCenterOffset;
+    public Vector2 attackHitBoxSize;
+    public bool showAttackHitBox;
 
 
-    public int facingDir { get; private set; } = 1;
-    public bool facingRight { get; private set; } = true;
+    public int facingDir { get; private set; } = -1;
+    public bool facingRight { get; private set; } = false;
     #region Components
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
@@ -60,7 +64,27 @@ public class Enemy : MonoBehaviour
     {
         //Ground Check
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
+        //attack box check
+        float attackBoxCenterX;
+        float attackBoxCenterY;
+        if (showAttackHitBox)
+        {
+            if (facingRight)
+            {
+                attackBoxCenterX = transform.position.x + attackHitBoxCenterOffset.x;
+                attackBoxCenterY = transform.position.y + attackHitBoxCenterOffset.y;
 
+            }
+            else
+            {
+                attackBoxCenterX = transform.position.x - attackHitBoxCenterOffset.x;
+                attackBoxCenterY = transform.position.y + attackHitBoxCenterOffset.y;
+
+            }
+            Vector2 attackBoxCenter = new Vector2(attackBoxCenterX, attackBoxCenterY);
+            Gizmos.DrawWireCube((Vector2)attackBoxCenter, attackHitBoxSize);
+
+        }
     }
     #endregion
 

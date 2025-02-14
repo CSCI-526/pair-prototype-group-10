@@ -8,9 +8,7 @@ public class PlayerPrimaryAttackState : PlayerState
     private int comboCounter;
     private float lastTimeAttacked; 
     private float comboWindow = 1f;
-
-    //For GUI TESTING
-    public int ComboCounterGUI => comboCounter;
+   
 
     public PlayerPrimaryAttackState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
@@ -19,11 +17,12 @@ public class PlayerPrimaryAttackState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        xInput = 0;
         if (comboCounter > 2 || Time.time >= lastTimeAttacked + comboWindow)
         {
             comboCounter = 0;
         }
-
+        player.comboCounter = comboCounter;
         player.anim.SetInteger("comboCounter", comboCounter);
 
         float attackDir = player.facingDir;
@@ -63,9 +62,10 @@ public class PlayerPrimaryAttackState : PlayerState
     {
         base.Exit();
 
-        player.StartCoroutine(player.Busyfor(0.2f));
+        player.StartCoroutine(player.Busyfor(0.1f));
         comboCounter++;
         lastTimeAttacked = Time.time;
+        player.lastTimeAttacked = lastTimeAttacked;
 
         //reset attackbox size
         player.attackHitBoxSize.x = 6.0f;
@@ -89,6 +89,8 @@ public class PlayerPrimaryAttackState : PlayerState
         {
             stateMachine.ChangeState(player.idleState);
         }
+
+
         //attack box contruction
         float attackBoxCenterX;
         float attackBoxCenterY;
@@ -108,8 +110,6 @@ public class PlayerPrimaryAttackState : PlayerState
         Vector2 attackBoxCenter = new Vector2(attackBoxCenterX, attackBoxCenterY);
         Vector2 attackBoxBottomLeft = new Vector2(attackBoxCenter.x - player.attackHitBoxSize.x / 2, attackBoxCenter.y - player.attackHitBoxSize.y / 2);
         Vector2 attackBoxTopRight = new Vector2(attackBoxCenter.x + player.attackHitBoxSize.x / 2, attackBoxCenter.y + player.attackHitBoxSize.y / 2);
-
-        
 
     }
 

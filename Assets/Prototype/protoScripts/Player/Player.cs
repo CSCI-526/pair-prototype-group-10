@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public Vector2 attackHitBoxCenterOffset;
     public Vector2 attackHitBoxSize;
     public bool showAttackHitBox;
+    [HideInInspector] public float lastTimeAttacked;
+    [HideInInspector] public int comboCounter;
 
     [Header("Parry Details")]
 
@@ -23,6 +25,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
+    [SerializeField] private LayerMask whatIsEnemy;
 
     public int facingDir { get; private set; } = 1;
     public bool facingRight { get; private set; } = true;
@@ -44,6 +47,7 @@ public class Player : MonoBehaviour
     public PlayerParryState parryState { get; private set; }
     public PlayerDefenseState defenseState { get; private set; }
     public PlayerAirParryState airParryState { get; private set; }
+    public PlayerSecondaryAttackState secondaryAttackState { get; private set; }
     #endregion
 
     private void Awake()
@@ -58,6 +62,8 @@ public class Player : MonoBehaviour
         parryState = new PlayerParryState(this, stateMachine, "Parry");
         defenseState = new PlayerDefenseState(this, stateMachine, "Defense");
         airParryState = new PlayerAirParryState(this, stateMachine, "AirParry");
+        secondaryAttackState = new PlayerSecondaryAttackState(this, stateMachine, "FollowUpAttack");
+
     }
 
     private void Start()
@@ -82,10 +88,13 @@ public class Player : MonoBehaviour
         isBusy = false;
     }
 
+
+    #region Trigger
     public void AnimationTrigger()
     {
         stateMachine.currentState.AnimationFinishTrigger();
     }
+    #endregion
 
     #region Velocity
     public void setVelocity(float _xVelocity, float _yVelocity)
@@ -167,7 +176,11 @@ public class Player : MonoBehaviour
         GUI.Label(new Rect(20, 35, 200, 40), currentStateName, style);
         if (stateMachine.currentState == primaryAttackState)
         {
-            GUI.Label(new Rect(20, 60, 200, 40), "Combo Counter: " + primaryAttackState.ComboCounterGUI, style);
+            GUI.Label(new Rect(20, 60, 200, 40), "Combo Counter: " + comboCounter, style);
+        }
+        if (stateMachine.currentState == secondaryAttackState)
+        {
+            GUI.Label(new Rect(20, 60, 200, 40), "Follow Up Counter: " + comboCounter, style);
         }
     }
 }
