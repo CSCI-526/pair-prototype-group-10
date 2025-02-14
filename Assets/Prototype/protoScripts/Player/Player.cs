@@ -86,6 +86,7 @@ public class Player : MonoBehaviour
     {
         stateMachine.currentState.AnimationFinishTrigger();
     }
+
     #region Velocity
     public void setVelocity(float _xVelocity, float _yVelocity)
     {
