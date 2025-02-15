@@ -86,13 +86,14 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 - UI State Management
 - Game Restart System
 - Physics-Based Movement
+- Discord Marketing
+- Documentation
 
 ### **Aditya Pandiarajan**
 - Updating Space Button
 - UI improvement
 - Documentation
-- Discord Marketing
-- Player Mechanic
+- One player mechanic
 
 ### **Jiayuan Fu**
 - Player and Sample Enemy Finite State Machine Implementation
