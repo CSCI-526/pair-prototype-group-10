@@ -62,15 +62,15 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 ## Mechanic Matrices
 
-| Mechanic | Description | Interaction with Twist | Affected Genre Elements | Type of Innovation |
-|----------|-------------|------------------------|------------------------|------------------|
-| **Enemy-to-Ally Conversion** | Convert the nearest rolling enemy into an ally, reversing its movement direction. | Changes avoidance-based survival into a strategic battlefield control mechanic. | - Enemy behavior and physics interactions  - Survival strategy beyond dodging  - Momentum-based movement as a tool | **Core mechanic defining game identity** |
+| Mechanic                  | Description                                              | Interaction with Twist                                      | Affected Genre Elements                                      | Type of Innovation                     |
+|---------------------------|----------------------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------|
+| **Enemy-to-Ally Conversion** | Convert the nearest rolling enemy into an ally, reversing its movement direction. | Changes avoidance-based survival into a strategic battlefield control mechanic. | - Enemy behavior and physics interactions  <br> - Survival strategy beyond dodging  <br> - Momentum-based movement as a tool | **Core mechanic defining game identity** |
 
 ---
 
 ## GitHub Repository
 
-**Repository:** [Insert GitHub Repository Link Here]
+**Repository:** [https://github.com/CSCI-526/pair-prototype-group-10]
 
 ---
 
