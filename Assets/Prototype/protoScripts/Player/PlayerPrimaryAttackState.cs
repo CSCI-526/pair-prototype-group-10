@@ -49,10 +49,10 @@ public class PlayerPrimaryAttackState : PlayerState
         }
         else if (comboCounter == 2)
         {
-            player.attackHitBoxSize.x = 8.0f;
-            player.attackHitBoxSize.y = 8.0f;
-            player.attackHitBoxCenterOffset.x = 3.0f;
-            player.attackHitBoxCenterOffset.y = 3.0f;
+            player.attackHitBoxSize.x = 10.0f;
+            player.attackHitBoxSize.y = 10.0f;
+            player.attackHitBoxCenterOffset.x = 4.0f;
+            player.attackHitBoxCenterOffset.y = 4.0f;
         }
 
 

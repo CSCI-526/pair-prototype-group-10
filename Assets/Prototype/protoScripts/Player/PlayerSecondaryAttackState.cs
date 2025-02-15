@@ -13,11 +13,17 @@ public class PlayerSecondaryAttackState : PlayerState
     {
         base.Enter();
         secondaryAttackCombo = player.comboCounter;
+
+        player.followUpHitBoxSize.x = 12.0f;
+        player.followUpHitBoxSize.y = 8.0f;
+        player.followUpHitBoxCenterOffset.x = 4.0f;
+        player.followUpHitBoxCenterOffset.y = 1.5f;
     }
 
     public override void Exit()
     {
         base.Exit();
+        player.showFollowUpHitBox = false;
     }
 
     public override void Update()
@@ -26,6 +32,10 @@ public class PlayerSecondaryAttackState : PlayerState
         if (triggerCalled)
         {
             stateMachine.ChangeState(player.idleState);
+        }
+        if(followUpEnabled)
+        {
+            player.showFollowUpHitBox = true;
         }
     }
 }

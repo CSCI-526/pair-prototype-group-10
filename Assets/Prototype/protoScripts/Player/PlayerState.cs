@@ -42,6 +42,7 @@ public class PlayerState
     public virtual void Exit() 
     {
         player.anim.SetBool(animBoolName, false);
+        followUpEnabled = false;
     }
 
     public virtual void AnimationFinishTrigger()

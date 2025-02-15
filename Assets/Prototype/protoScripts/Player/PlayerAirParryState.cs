@@ -8,7 +8,7 @@ public class PlayerAirParryState : PlayerState
     {
     }
 
-    private float parryDuration = 0.3f;
+    private float parryDuration = 0.4f;
     private float parryTimer;
 
 
@@ -17,6 +17,8 @@ public class PlayerAirParryState : PlayerState
         base.Enter();
         parryTimer = parryDuration;
         player.setVelocity(0, 0);
+        player.showAirParryHitBox = true;
+        player.airParryHitBoxRadius = 4.0f;
     }
 
     public override void Exit()
@@ -25,6 +27,7 @@ public class PlayerAirParryState : PlayerState
 
         //reset player color
         player.spriteRenderer.color = Color.white;
+        player.showAirParryHitBox = false;
     }
 
     public override void Update()

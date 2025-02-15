@@ -290,6 +290,10 @@ Transform:
   - {fileID: 1603313262}
   - {fileID: 1718578449}
   - {fileID: 1221737668}
+  - {fileID: 1478210137}
+  - {fileID: 784003931}
+  - {fileID: 570536410}
+  - {fileID: 1383829295}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &398324983
@@ -345,11 +349,26 @@ MonoBehaviour:
   - {x: 2, y: 4}
   isBusy: 0
   attackHitBox: {fileID: 1221737667}
-  attackHitBoxCenterOffset: {x: 2, y: 0}
-  attackHitBoxSize: {x: 6, y: 6}
+  attackHitBoxCenterOffset: {x: 0, y: 0}
+  attackHitBoxSize: {x: 0, y: 0}
   showAttackHitBox: 0
   lastTimeAttacked: 0
   comboCounter: 0
+  followUpHitBox: {fileID: 1383829294}
+  followUpHitBoxCenterOffset: {x: 0, y: 0}
+  followUpHitBoxSize: {x: 0, y: 0}
+  showFollowUpHitBox: 0
+  parryHitBox: {fileID: 1478210136}
+  parryHitBoxCenterOffset: {x: 0, y: 0}
+  parryHitBoxSize: {x: 0, y: 0}
+  showParryHitBox: 0
+  defenseHitBox: {fileID: 784003930}
+  defenseHitBoxCenterOffset: {x: 0, y: 0}
+  defenseHitBoxSize: {x: 0, y: 0}
+  showDefenseHitBox: 0
+  airParryHitBox: {fileID: 570536409}
+  airParryHitBoxRadius: 0
+  showAirParryHitBox: 0
   moveSpeed: 12
   jumpForce: 40
   airForce: 35
@@ -360,7 +379,38 @@ MonoBehaviour:
     m_Bits: 8
   whatIsEnemy:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
+--- !u!1 &570536409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570536410}
+  m_Layer: 7
+  m_Name: AirParryHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &570536410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570536409}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 398324982}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736906569
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +502,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &784003930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 784003931}
+  m_Layer: 7
+  m_Name: DefenseHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &784003931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784003930}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 398324982}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &802926690
 GameObject:
@@ -545,6 +626,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1458091269}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1383829294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383829295}
+  m_Layer: 7
+  m_Name: FollowUpHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1383829295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383829294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 398324982}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1458091265
 GameObject:
@@ -719,6 +831,37 @@ MonoBehaviour:
   attackHitBoxCenterOffset: {x: 15, y: 5}
   attackHitBoxSize: {x: 30, y: 20}
   showAttackHitBox: 0
+--- !u!1 &1478210136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1478210137}
+  m_Layer: 7
+  m_Name: ParryHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1478210137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478210136}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 398324982}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1603313261
 GameObject:
   m_ObjectHideFlags: 0

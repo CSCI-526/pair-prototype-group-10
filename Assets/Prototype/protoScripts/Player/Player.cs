@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    #region Inspector
     [Header("Attack Details")]
     public Vector2[] attackMovement;
     public bool isBusy;
@@ -14,8 +15,25 @@ public class Player : MonoBehaviour
     public bool showAttackHitBox;
     [HideInInspector] public float lastTimeAttacked;
     [HideInInspector] public int comboCounter;
+    public GameObject followUpHitBox;
+    public Vector2 followUpHitBoxCenterOffset;
+    public Vector2 followUpHitBoxSize;
+    public bool showFollowUpHitBox;
 
-    [Header("Parry Details")]
+    [Header("Parry/Defense Details")]
+    public GameObject parryHitBox;
+    public Vector2 parryHitBoxCenterOffset;
+    public Vector2 parryHitBoxSize;
+    public bool showParryHitBox;
+
+    public GameObject defenseHitBox;
+    public Vector2 defenseHitBoxCenterOffset;
+    public Vector2 defenseHitBoxSize;
+    public bool showDefenseHitBox;
+
+    public GameObject airParryHitBox;
+    public float airParryHitBoxRadius;
+    public bool showAirParryHitBox;
 
     [Header("Move Info")]
     public float moveSpeed = 12f;
@@ -30,6 +48,8 @@ public class Player : MonoBehaviour
 
     public int facingDir { get; private set; } = 1;
     public bool facingRight { get; private set; } = true;
+
+    #endregion
 
     #region Components
     public Animator anim {  get; private set; }
@@ -151,6 +171,76 @@ public class Player : MonoBehaviour
 
         }
 
+        //parry box check
+        float parryBoxCenterX;
+        float parryBoxCenterY;
+        if (showParryHitBox)
+        {
+            if (facingRight)
+            {
+                parryBoxCenterX = transform.position.x + parryHitBoxCenterOffset.x;
+                parryBoxCenterY = transform.position.y + parryHitBoxCenterOffset.y;
+
+            }
+            else
+            {
+                parryBoxCenterX = transform.position.x - parryHitBoxCenterOffset.x;
+                parryBoxCenterY = transform.position.y + parryHitBoxCenterOffset.y;
+
+            }
+            Vector2 parryBoxCenter = new Vector2(parryBoxCenterX, parryBoxCenterY);
+            Gizmos.DrawWireCube((Vector2)parryBoxCenter, parryHitBoxSize);
+        }
+
+        //defense box check
+        float defenseBoxCenterX;
+        float defenseBoxCenterY;
+        if (showDefenseHitBox)
+        {
+            if (facingRight)
+            {
+                defenseBoxCenterX = transform.position.x + defenseHitBoxCenterOffset.x;
+                defenseBoxCenterY = transform.position.y + defenseHitBoxCenterOffset.y;
+
+            }
+            else
+            {
+                defenseBoxCenterX = transform.position.x - defenseHitBoxCenterOffset.x;
+                defenseBoxCenterY = transform.position.y + defenseHitBoxCenterOffset.y;
+
+            }
+            Vector2 defenseBoxCenter = new Vector2(defenseBoxCenterX, defenseBoxCenterY);
+            Gizmos.DrawWireCube((Vector2)defenseBoxCenter, defenseHitBoxSize);
+        }
+
+        //airParry box check
+        if (showAirParryHitBox)
+        {
+            Vector2 airParryBoxCenter = transform.position;
+            Gizmos.DrawWireSphere((Vector2)airParryBoxCenter, airParryHitBoxRadius);
+        }
+
+        //FollowUpAttck box check
+        float followUpBoxCenterX;
+        float followUpBoxCenterY;
+        if (showFollowUpHitBox)
+        {
+            if (facingRight)
+            {
+                followUpBoxCenterX = transform.position.x + followUpHitBoxCenterOffset.x;
+                followUpBoxCenterY = transform.position.y + followUpHitBoxCenterOffset.y;
+
+            }
+            else
+            {
+                followUpBoxCenterX = transform.position.x - followUpHitBoxCenterOffset.x;
+                followUpBoxCenterY = transform.position.y + followUpHitBoxCenterOffset.y;
+
+            }
+            Vector2 followUpBoxCenter = new Vector2(followUpBoxCenterX, followUpBoxCenterY);
+            Gizmos.DrawWireCube((Vector2)followUpBoxCenter, followUpHitBoxSize);
+
+        }
 
     }
     #endregion

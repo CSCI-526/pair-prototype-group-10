@@ -12,6 +12,11 @@ public class PlayerDefenseState : PlayerState
     {
         base.Enter();
         player.setVelocity(0f, 0f);
+        player.showDefenseHitBox = true;
+        player.defenseHitBoxSize.x = 6.0f;
+        player.defenseHitBoxSize.y = 6.0f;
+        player.defenseHitBoxCenterOffset.x = 3.0f;
+        player.defenseHitBoxCenterOffset.y = 2.0f;
     }
 
     public override void Exit()
@@ -19,6 +24,7 @@ public class PlayerDefenseState : PlayerState
         base.Exit();
         //reset color
         player.spriteRenderer.color = Color.white;
+        player.showDefenseHitBox = false;
     }
 
     public override void Update()

@@ -17,6 +17,11 @@ public class PlayerParryState : PlayerState
 
         parryTimer = parryDuration;
         player.setVelocity(0, 0);
+        player.showParryHitBox = true;
+        player.parryHitBoxSize.x = 9.0f;
+        player.parryHitBoxSize.y = 9.0f;
+        player.parryHitBoxCenterOffset.x = 3.0f;
+        player.parryHitBoxCenterOffset.y = 3.0f;
     }
 
     public override void Exit()
@@ -24,6 +29,7 @@ public class PlayerParryState : PlayerState
         base.Exit();
         //reset player color
         player.spriteRenderer.color = Color.white;
+        player.showParryHitBox = false;
     }
 
     public override void Update()

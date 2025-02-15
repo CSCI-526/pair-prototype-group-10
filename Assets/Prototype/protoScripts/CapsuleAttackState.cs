@@ -13,7 +13,7 @@ public class CapsuleAttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        stateTimer = 1f;
+        stateTimer = 0.5f;
         enemy.spriteRenderer.color = Color.red;
         enemy.showAttackHitBox = true;
     }
