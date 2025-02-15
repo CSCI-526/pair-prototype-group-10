@@ -64,9 +64,7 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 | Mechanic | Description | Interaction with Twist | Affected Genre Elements | Type of Innovation |
 |----------|-------------|------------------------|------------------------|------------------|
-| **Enemy-to-Ally Conversion** | Convert the nearest rolling enemy into an ally, reversing its movement direction. | Changes avoidance-based survival into a strategic battlefield control mechanic. | - Enemy behavior and physics interactions  
-- Survival strategy beyond dodging  
-- Momentum-based movement as a tool | **Core mechanic defining game identity** |
+| **Enemy-to-Ally Conversion** | Convert the nearest rolling enemy into an ally, reversing its movement direction. | Changes avoidance-based survival into a strategic battlefield control mechanic. | - Enemy behavior and physics interactions  - Survival strategy beyond dodging  - Momentum-based movement as a tool | **Core mechanic defining game identity** |
 
 ---
 
