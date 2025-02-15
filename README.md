@@ -76,13 +76,6 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 ## Individual Contributions
 
-### **Aditya Pandiarajan**
-- Updating Space Button
-- UI improvement
-- Documentation
-- Discord Marketing
-- Player Mechanic
-
 ### **Gaurav Zanpure**
 - Level Design
 - Player and Enemy Mechanics
@@ -93,6 +86,13 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 - UI State Management
 - Game Restart System
 - Physics-Based Movement
+
+### **Aditya Pandiarajan**
+- Updating Space Button
+- UI improvement
+- Documentation
+- Discord Marketing
+- Player Mechanic
 
 ### **Jiayuan Fu**
 - Player and Sample Enemy Finite State Machine Implementation
