@@ -145,7 +145,7 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 ## Contact
 For any questions or contributions, contact:
-- **Aditya Pandiarajan** - alnu@usc.edu
 - **Gaurav Zanpure** - gzanpure@usc.edu
+- **Aditya Pandiarajan** - alnu@usc.edu
 - **Jiayuan Fu** - jfu03326@usc.edu
 
