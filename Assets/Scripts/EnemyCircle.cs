@@ -1,25 +1,3 @@
-// using UnityEngine;
-
-// public class EnemyCircle : MonoBehaviour
-// {
-//     public float speed = 2f;
-//     public bool isAlly = false;
-
-//     void Update()
-//     {
-//         if (!isAlly)
-//             transform.position += Vector3.left * speed * Time.deltaTime; // Move left
-//         else
-//             transform.position += Vector3.right * speed * Time.deltaTime; // Move right
-//     }
-
-//     public void ConvertToAlly()
-//     {
-//         isAlly = true;
-//         GetComponent<SpriteRenderer>().color = Color.green;
-//     }
-// }
-
 using UnityEngine;
 
 public class EnemyCircle : MonoBehaviour
@@ -27,21 +5,21 @@ public class EnemyCircle : MonoBehaviour
     public float speed = 2f;
     public bool isAlly = false;
     private SpriteRenderer spriteRenderer;
-    private GameOverManager gameOverManager; // Reference to GameOverManager
+    private GameOverManager gameOverManager;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.color = Color.red; // Set default color to red
-        gameOverManager = FindObjectOfType<GameOverManager>(); // Find GameOverManager in scene
+        spriteRenderer.color = Color.red; 
+        gameOverManager = FindObjectOfType<GameOverManager>(); 
     }
 
     void Update()
     {
         if (!isAlly)
-            transform.position += Vector3.left * speed * Time.deltaTime; // Move left
+            transform.position += Vector3.left * speed * Time.deltaTime; 
         else
-            transform.position += Vector3.right * speed * Time.deltaTime; // Move right
+            transform.position += Vector3.right * speed * Time.deltaTime; 
     }
 
     public void ConvertToAlly()
@@ -51,7 +29,7 @@ public class EnemyCircle : MonoBehaviour
         
         if (gameOverManager != null)
         {
-            gameOverManager.ShowAllianceFormed(); // Trigger alliance message
+            gameOverManager.ShowAllianceFormed(); 
         }
     }
 }
