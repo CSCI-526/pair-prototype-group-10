@@ -1,49 +1,3 @@
-// using UnityEngine;
-// using UnityEngine.SceneManagement;
-// using TMPro;
-
-// public class GameOverManager : MonoBehaviour
-// {
-//     public GameObject gameOverPanel;
-//     public TextMeshProUGUI gameOverText;
-//     private int enemyDefeatedCount = 0;
-//     public int winThreshold = 10; // Number of enemies needed to win
-//     private bool gameOverTriggered = false; // Prevents multiple triggers
-
-//     public void ShowGameOverScreen(bool won)
-//     {
-//         if (gameOverTriggered) return; // Stop if already triggered
-
-//         gameOverTriggered = true; // Set flag to prevent further triggers
-//         gameOverPanel.SetActive(true);
-        
-//         if (won)
-//         {
-//             gameOverText.text = "YOU WON!!!";
-//         }
-//         else
-//         {
-//             gameOverText.text = "GAME OVER!";
-//         }
-//     }
-
-//     public void RestartGame()
-//     {
-//         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-//     }
-
-//     public void IncreaseEnemyDefeated()
-//     {
-//         if (gameOverTriggered) return; // Don't increase count after game ends
-
-//         enemyDefeatedCount++;
-//         if (enemyDefeatedCount >= winThreshold)
-//         {
-//             ShowGameOverScreen(true); // Show "YOU WON!"
-//         }
-//     }
-// }
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -53,15 +7,15 @@ public class GameOverManager : MonoBehaviour
 {
     public GameObject gameOverPanel;
     public TextMeshProUGUI gameOverText;
-    public TextMeshProUGUI enemyCountText; // UI text for countdown
-    private int remainingEnemies = 10; // Start from 10
+    public TextMeshProUGUI enemyCountText; 
+    private int remainingEnemies = 10; 
     private bool gameOverTriggered = false;
-    private Color defaultTextColor; // Stores original text color
+    private Color defaultTextColor; 
 
     void Start()
     {
-        defaultTextColor = enemyCountText.color; // Save default color
-        UpdateEnemyCountUI(); // Initialize the UI with 10
+        defaultTextColor = enemyCountText.color; 
+        UpdateEnemyCountUI(); 
     }
 
     public void ShowGameOverScreen(bool won)
@@ -70,7 +24,7 @@ public class GameOverManager : MonoBehaviour
 
         gameOverTriggered = true;
         gameOverPanel.SetActive(true);
-        enemyCountText.gameObject.SetActive(false); // Hide enemy count text
+        enemyCountText.gameObject.SetActive(false); 
 
         if (won)
         {
@@ -91,12 +45,12 @@ public class GameOverManager : MonoBehaviour
     {
         if (gameOverTriggered || remainingEnemies <= 0) return;
 
-        remainingEnemies--; // Decrease countdown
-        UpdateEnemyCountUI(); // Update UI
+        remainingEnemies--; 
+        UpdateEnemyCountUI(); 
 
         if (remainingEnemies <= 0)
         {
-            ShowGameOverScreen(true); // Win condition
+            ShowGameOverScreen(true); 
         }
     }
 
@@ -105,13 +59,13 @@ public class GameOverManager : MonoBehaviour
         if (enemyCountText != null)
         {
             enemyCountText.text = "Enemies Remaining: " + remainingEnemies;
-            enemyCountText.color = defaultTextColor; // Reset to default color
+            enemyCountText.color = defaultTextColor; 
         }
     }
 
     public void ShowAllianceFormed()
     {
-        StopAllCoroutines(); // Prevent overlapping color changes
+        StopAllCoroutines(); 
         StartCoroutine(AllianceFormedEffect());
     }
 
