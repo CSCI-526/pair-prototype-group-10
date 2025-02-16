@@ -4,8 +4,8 @@
 
 | Name             | Email             | GitHub Username   |
 |-----------------|------------------|------------------|
-| Aditya Pandiarajan | alnu@usc.edu      | Aditya10CR7       |
 | Gaurav Zanpure   | gzanpure@usc.edu   | Gaurav-Zanpure    |
+| Aditya Pandiarajan | alnu@usc.edu      | Aditya10CR7       |
 | Jiayuan Fu       | jfu03326@usc.edu   | j2fu              |
 
 ---
@@ -70,7 +70,7 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 ## GitHub Repository
 
-**Repository:** [https://github.com/CSCI-526/pair-prototype-group-10]
+**Repository:** https://github.com/CSCI-526/pair-prototype-group-10
 
 ---
 
