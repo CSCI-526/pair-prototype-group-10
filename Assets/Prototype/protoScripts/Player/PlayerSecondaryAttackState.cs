@@ -13,7 +13,7 @@ public class PlayerSecondaryAttackState : PlayerState
     {
         base.Enter();
         secondaryAttackCombo = player.comboCounter;
-
+        player.anim.SetInteger("FollowUpCounter", secondaryAttackCombo);
         player.followUpHitBoxSize.x = 12.0f;
         player.followUpHitBoxSize.y = 8.0f;
         player.followUpHitBoxCenterOffset.x = 4.0f;

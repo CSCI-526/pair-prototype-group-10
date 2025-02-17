@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public bool showFollowUpHitBox;
 
     [Header("Parry/Defense Details")]
+    [HideInInspector] public float invincibleTime;
+
     public GameObject parryHitBox;
     public Vector2 parryHitBoxCenterOffset;
     public Vector2 parryHitBoxSize;

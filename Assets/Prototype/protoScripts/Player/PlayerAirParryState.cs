@@ -17,6 +17,7 @@ public class PlayerAirParryState : PlayerState
         base.Enter();
         parryTimer = parryDuration;
         player.setVelocity(0, 0);
+        player.rb.gravityScale = 0;
         player.showAirParryHitBox = true;
         player.airParryHitBoxRadius = 4.0f;
     }
@@ -28,6 +29,7 @@ public class PlayerAirParryState : PlayerState
         //reset player color
         player.spriteRenderer.color = Color.white;
         player.showAirParryHitBox = false;
+        player.rb.gravityScale = 10;
     }
 
     public override void Update()

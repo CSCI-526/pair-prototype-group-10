@@ -386,7 +386,7 @@ TextureImporter:
       name: chargeSword_13
       rect:
         serializedVersion: 2
-        x: 450
+        x: 449
         y: 1660
         width: 150
         height: 110
@@ -1818,8 +1818,8 @@ TextureImporter:
         y: 890
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.37, y: 0.27}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2175,8 +2175,8 @@ TextureImporter:
         y: 780
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2196,8 +2196,8 @@ TextureImporter:
         y: 780
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2217,8 +2217,8 @@ TextureImporter:
         y: 670
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2234,12 +2234,12 @@ TextureImporter:
       name: chargeSword_101
       rect:
         serializedVersion: 2
-        x: 150
+        x: 151
         y: 670
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2255,12 +2255,12 @@ TextureImporter:
       name: chargeSword_102
       rect:
         serializedVersion: 2
-        x: 300
+        x: 301
         y: 670
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2277,11 +2277,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 450
-        y: 670
+        y: 686
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.37, y: 0.16}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2297,12 +2297,12 @@ TextureImporter:
       name: chargeSword_104
       rect:
         serializedVersion: 2
-        x: 600
-        y: 670
+        x: 605
+        y: 669
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.37, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2318,7 +2318,7 @@ TextureImporter:
       name: chargeSword_105
       rect:
         serializedVersion: 2
-        x: 750
+        x: 751
         y: 670
         width: 150
         height: 110
@@ -2465,7 +2465,7 @@ TextureImporter:
       name: chargeSword_112
       rect:
         serializedVersion: 2
-        x: 300
+        x: 299
         y: 560
         width: 150
         height: 110
@@ -2486,8 +2486,8 @@ TextureImporter:
       name: chargeSword_113
       rect:
         serializedVersion: 2
-        x: 450
-        y: 560
+        x: 452
+        y: 577
         width: 150
         height: 110
       alignment: 0
@@ -2801,8 +2801,8 @@ TextureImporter:
       name: chargeSword_128
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 450
+        x: 1203
+        y: 447
         width: 150
         height: 110
       alignment: 9
@@ -3096,7 +3096,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 300
-        y: 230
+        y: 231
         width: 150
         height: 110
       alignment: 0
@@ -3116,7 +3116,7 @@ TextureImporter:
       name: chargeSword_143
       rect:
         serializedVersion: 2
-        x: 450
+        x: 451
         y: 230
         width: 150
         height: 110
@@ -3306,12 +3306,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 150
+        y: 9
+        width: 144
         height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 47, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3326,12 +3326,12 @@ TextureImporter:
       name: chargeSword_153
       rect:
         serializedVersion: 2
-        x: 150
-        y: 10
+        x: 112
+        y: 14
         width: 150
         height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3347,12 +3347,12 @@ TextureImporter:
       name: chargeSword_154
       rect:
         serializedVersion: 2
-        x: 300
-        y: 10
-        width: 150
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 266
+        y: 13
+        width: 110
+        height: 150
+      alignment: 9
+      pivot: {x: 0.1, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3368,12 +3368,12 @@ TextureImporter:
       name: chargeSword_155
       rect:
         serializedVersion: 2
-        x: 450
-        y: 10
-        width: 150
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 504
+        y: 12
+        width: 110
+        height: 150
+      alignment: 9
+      pivot: {x: 0.1, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3389,12 +3389,12 @@ TextureImporter:
       name: chargeSword_156
       rect:
         serializedVersion: 2
-        x: 600
-        y: 10
-        width: 150
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 615
+        y: 11
+        width: 110
+        height: 150
+      alignment: 9
+      pivot: {x: 0.2, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
