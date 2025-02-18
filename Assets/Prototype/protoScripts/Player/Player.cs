@@ -6,6 +6,10 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     #region Inspector
+    [Header("Magic System")]
+    public string currentElements;
+    public int currentMagicStateID;
+
     [Header("Attack Details")]
     public Vector2[] attackMovement;
     public bool isBusy;
@@ -276,15 +280,16 @@ public class Player : MonoBehaviour
         style.fontSize = 20;
         style.normal.textColor = Color.white;
         string currentStateName =  stateMachine.currentState.AnimBoolNameGUI;
-        GUI.Box(new Rect(10, 10, 200, 100), "Player State");
+        GUI.Box(new Rect(10, 10, 350, 150), "Player State");
         GUI.Label(new Rect(20, 35, 200, 40), currentStateName, style);
         if (stateMachine.currentState == primaryAttackState)
         {
-            GUI.Label(new Rect(20, 60, 200, 40), "Combo Counter: " + comboCounter, style);
+            GUI.Label(new Rect(20, 85, 200, 40), "Combo Counter: " + comboCounter, style);
         }
         if (stateMachine.currentState == secondaryAttackState)
         {
-            GUI.Label(new Rect(20, 60, 200, 40), "Follow Up Counter: " + comboCounter, style);
+            GUI.Label(new Rect(20, 85, 200, 40), "Follow Up Counter: " + comboCounter, style);
         }
+        GUI.Label(new Rect(20, 60, 200, 40), "Magic Elements: " + currentElements, style);
     }
 }
