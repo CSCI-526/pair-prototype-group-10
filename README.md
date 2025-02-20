@@ -4,8 +4,8 @@
 
 | Name             | Email             | GitHub Username   |
 |-----------------|------------------|------------------|
-| Aditya Pandiarajan | alnu@usc.edu      | Aditya10CR7       |
 | Gaurav Zanpure   | gzanpure@usc.edu   | Gaurav-Zanpure    |
+| Aditya Pandiarajan | alnu@usc.edu      | Aditya10CR7       |
 | Jiayuan Fu       | jfu03326@usc.edu   | j2fu              |
 
 ---
@@ -70,18 +70,11 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 ## GitHub Repository
 
-**Repository:** [https://github.com/CSCI-526/pair-prototype-group-10]
+**Repository:** https://github.com/CSCI-526/pair-prototype-group-10
 
 ---
 
 ## Individual Contributions
-
-### **Aditya Pandiarajan**
-- Updating Space Button
-- UI improvement
-- Documentation
-- Discord Marketing
-- Player Mechanic
 
 ### **Gaurav Zanpure**
 - Level Design
@@ -93,6 +86,14 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 - UI State Management
 - Game Restart System
 - Physics-Based Movement
+- Discord Marketing
+- Documentation
+
+### **Aditya Pandiarajan**
+- Updating Space Button
+- UI improvement
+- Documentation
+- One player mechanic
 
 ### **Jiayuan Fu**
 - Player and Sample Enemy Finite State Machine Implementation
@@ -144,7 +145,7 @@ Unlike traditional 2D physics-based platformers where enemies are always obstacl
 
 ## Contact
 For any questions or contributions, contact:
-- **Aditya Pandiarajan** - alnu@usc.edu
 - **Gaurav Zanpure** - gzanpure@usc.edu
+- **Aditya Pandiarajan** - alnu@usc.edu
 - **Jiayuan Fu** - jfu03326@usc.edu
 
