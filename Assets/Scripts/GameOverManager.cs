@@ -7,15 +7,16 @@ public class GameOverManager : MonoBehaviour
 {
     public GameObject gameOverPanel;
     public TextMeshProUGUI gameOverText;
-    public TextMeshProUGUI enemyCountText; 
-    private int remainingEnemies = 10; 
-    private bool gameOverTriggered = false;
-    private Color defaultTextColor; 
+    public TextMeshProUGUI enemyCountText;
+    private int remainingEnemies = 10;
+    public static bool gameOverTriggered = false;
+    private Color defaultTextColor;
 
     void Start()
     {
-        defaultTextColor = enemyCountText.color; 
-        UpdateEnemyCountUI(); 
+        defaultTextColor = enemyCountText.color;
+        UpdateEnemyCountUI();
+        gameOverTriggered = false;
     }
 
     public void ShowGameOverScreen(bool won)
@@ -24,7 +25,7 @@ public class GameOverManager : MonoBehaviour
 
         gameOverTriggered = true;
         gameOverPanel.SetActive(true);
-        enemyCountText.gameObject.SetActive(false); 
+        enemyCountText.gameObject.SetActive(false);
 
         if (won)
         {
@@ -38,6 +39,9 @@ public class GameOverManager : MonoBehaviour
 
     public void RestartGame()
     {
+        GameOverManager.gameOverTriggered = false;
+        EnemySpawner.enemyCount = 0;
+        TutorialManager.ResetTutorial();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -45,12 +49,12 @@ public class GameOverManager : MonoBehaviour
     {
         if (gameOverTriggered || remainingEnemies <= 0) return;
 
-        remainingEnemies--; 
-        UpdateEnemyCountUI(); 
+        remainingEnemies--;
+        UpdateEnemyCountUI();
 
         if (remainingEnemies <= 0)
         {
-            ShowGameOverScreen(true); 
+            ShowGameOverScreen(true);
         }
     }
 
@@ -59,13 +63,13 @@ public class GameOverManager : MonoBehaviour
         if (enemyCountText != null)
         {
             enemyCountText.text = "Enemies Remaining: " + remainingEnemies;
-            enemyCountText.color = defaultTextColor; 
+            enemyCountText.color = defaultTextColor;
         }
     }
 
     public void ShowAllianceFormed()
     {
-        StopAllCoroutines(); 
+        StopAllCoroutines();
         StartCoroutine(AllianceFormedEffect());
     }
 
@@ -77,4 +81,3 @@ public class GameOverManager : MonoBehaviour
         UpdateEnemyCountUI(); // Restore original text
     }
 }
-
