@@ -27,7 +27,7 @@ public class TutorialManager : MonoBehaviour
         Time.timeScale = 0;
         tutorialText.text = "Press A/D to Move";
 
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.Return));
         
         tutorialText.text = "";
         Time.timeScale = 1;
@@ -48,7 +48,7 @@ public class TutorialManager : MonoBehaviour
         Time.timeScale = 0;
         tutorialText.text = "Press E to Form an Alliance!";
 
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E) && EnemySpawner.enemyCount >= 2);
+        yield return new WaitUntil(() => (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return)) && EnemySpawner.enemyCount >= 2);
         
         tutorialText.text = "";
         Time.timeScale = 1;
